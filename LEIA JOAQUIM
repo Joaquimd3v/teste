@@ -1,0 +1,59 @@
+ATENÇÃO ESSE ARQUIVO DEVE SER EXCLUIDO NO MOMENTO DA TRANSFERÊNCIA PARA O GITHUB.
+
+NO DIRETÓRIO HOME HÁ UMA PASTA COM .ICONS, ENTRETANTO ESSA PASTA NÃO CONTÉM OS ICONES
+E CURSORES QUE O REPOSITÓRIO DO GH0ST INSTALA, PORTANTO, HOUVE UMA TRANSFERÊNCIA DA PASTA
+ICONS DO /usr/share/icons.
+
+
+[gh0stzk-dotfiles]
+SigLevel = Optional TrustAll
+Server = http://gh0stzk.github.io/pkgs/x86_64
+
+
+[chaotic-aur]
+Include = /etc/pacman.d/chaotic-mirrorlist
+
+PACOTES QUE NÃO TEM NO REPOSITÓRIO DO ARCH APENAS DO GH0ST
+
+erro: alvo não encontrado: gh0stzk-gtk-themes
+erro: alvo não encontrado: gh0stzk-cursor-qogirr
+erro: alvo não encontrado: gh0stzk-icons-beautyline
+erro: alvo não encontrado: gh0stzk-icons-candy
+erro: alvo não encontrado: gh0stzk-icons-catppuccin-mocha
+erro: alvo não encontrado: gh0stzk-icons-dracula
+erro: alvo não encontrado: gh0stzk-icons-glassy
+erro: alvo não encontrado: gh0stzk-icons-gruvbox-plus-dark
+erro: alvo não encontrado: gh0stzk-icons-hack
+erro: alvo não encontrado: gh0stzk-icons-luv
+erro: alvo não encontrado: gh0stzk-icons-sweet-rainbow
+erro: alvo não encontrado: gh0stzk-icons-tokyo-night
+erro: alvo não encontrado: gh0stzk-icons-vimix-white
+erro: alvo não encontrado: gh0stzk-icons-zafiro
+erro: alvo não encontrado: gh0stzk-icons-zafiro-purple
+
+
+
+
+PACOTES QUE NÃO TEM NO REPOSITÓRIO DO ARCH APENAS DO CHAOTICAUR
+
+
+erro: alvo não encontrado: paru
+erro: alvo não encontrado: tdrop
+erro: alvo não encontrado: eww-git
+erro: alvo não encontrado: i3lock-color
+erro: alvo não encontrado: simple-mtpfs
+erro: alvo não encontrado: gh0stzk-gtk-themes
+erro: alvo não encontrado: gh0stzk-cursor-qogirr
+erro: alvo não encontrado: gh0stzk-icons-beautyline
+erro: alvo não encontrado: gh0stzk-icons-candy
+erro: alvo não encontrado: gh0stzk-icons-catppuccin-mocha
+erro: alvo não encontrado: gh0stzk-icons-dracula
+erro: alvo não encontrado: gh0stzk-icons-glassy
+erro: alvo não encontrado: gh0stzk-icons-gruvbox-plus-dark
+erro: alvo não encontrado: gh0stzk-icons-hack
+erro: alvo não encontrado: gh0stzk-icons-luv
+erro: alvo não encontrado: gh0stzk-icons-sweet-rainbow
+erro: alvo não encontrado: gh0stzk-icons-tokyo-night
+erro: alvo não encontrado: gh0stzk-icons-vimix-white
+erro: alvo não encontrado: gh0stzk-icons-zafiro
+erro: alvo não encontrado: gh0stzk-icons-zafiro-purple
