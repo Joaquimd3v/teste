@@ -370,6 +370,15 @@ move_icons() {
     if [ -d "$icon_dir" ]; then
         echo -e "${BLD}${CYE}Moving icons from ${CBL}${icon_dir} ${CYE}to /usr/share/icons...${CNC}"
 
+        # Exibe a mensagem "Movendo pastas" antes de mover
+        echo -e "${BLD}${CYE}Movendo pastas...${CNC}"
+
+        # Garante permissões de leitura, gravação e execução para o proprietário e grupo para todos os arquivos e pastas dentro de $icon_dir
+        sudo chmod -R u+rwX,go+rX "$icon_dir" 2>> "$ERROR_LOG"
+        
+        # Garante que o usuário atual tenha permissões de proprietário para os arquivos
+        sudo chown -R $(whoami):$(whoami) "$icon_dir" 2>> "$ERROR_LOG"
+
         # Move os arquivos de ícones para o diretório de ícones do sistema
         sudo mv "$icon_dir"/* /usr/share/icons/ 2>> "$ERROR_LOG"
 
